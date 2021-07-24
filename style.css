@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 239, 239);
+  width: 100%;
+}
+
+.container .instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.container .instagram-wrapper .phone{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container .instagram-wrapper .phone img{
+  height: 45rem;
+}
+
+.container .instagram-wrapper .login-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+  top: -1rem;
+
+}
+
+.container .instagram-wrapper .login-wrapper .login{
+  background-color: white;
+  height: 17rem;
+  border: 1px solid rgb(212, 211, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container .instagram-wrapper .login-wrapper .login .instagram-logo{
+  width: 9.7rem;
+  margin-top: 1rem;
+  height: 2.8;
+}
+
+.container .instagram-wrapper .login-wrapper .login .foto-perfil img{
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.container .instagram-wrapper .login-wrapper .login .login-button{
+  color: rgb(238, 238, 238);
+  background-color: #0095f6;
+  padding: 7px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.container .instagram-wrapper .login-wrapper .login .remove-button{
+  font-size: 0.9rem;
+  color: #0095f6
+}
+
+.container .instagram-wrapper .login-wrapper .account{
+  background-color: white;
+  height: 4rem;
+  border: 1px solid rgb(212, 211, 211);
+  margin-top: 5px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.container .instagram-wrapper .login-wrapper .account span:first-child{
+  display: block;
+  font-size: 0.9rem;
+}
+
+.container .instagram-wrapper .login-wrapper .account .account-a{
+  font-size: 1rem;
+}
+
+
+
+.container .instagram-wrapper .login-wrapper .account span{
+  color: rgba(150, 147, 147, 0.979);
+
+}
+
+.container .instagram-wrapper .login-wrapper .download{
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.container .instagram-wrapper .login-wrapper .download .icons{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 0.7rem;
+}
+
+.container .instagram-wrapper .login-wrapper .download .icons img{
+  width: 8.8rem;
+  height: 2.6rem;
+  background-size: cover;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+  .instagram-wrapper {
+    width: 90%;
+}
+}
+
+@media (max-width: 900px) {
+  .instagram-wrapper {
+      width: 90%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
